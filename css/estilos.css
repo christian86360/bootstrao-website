@@ -1,0 +1,50 @@
+body{
+	background:#212555c;
+	color:#fff;
+}
+
+.navbar{
+	border-bottom: #fff 3px solid;
+	opacity: 0.8;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+
+	color:#fff !important;
+}
+
+#seccion-inicio{
+	background:url("../img/pexels-photo-273691.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+
+#seccion-inicio .dark-overlay{
+	background-color:rgba(0, 0, 0, 0.4); 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 700px;
+}
+
+#seccion-inicio .inicio-inner{
+  /*para vajar el texto*/
+  padding-top: 150px;	
+}
+#seccion-perfil{
+	background-color:rgba(0, 40, 171, 0.9);
+}
+
+.display-4{
+	color:white;
+}
+.lead{
+color:white;
+}
+.seccion-comunidad2{
+	background-color:rgba(0, 40, 171, 0.9);
+}
